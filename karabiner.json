@@ -40,6 +40,14 @@
                         "description": "Ctrl+v => PageDown / Ctrl+u => PageUp",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "u",
                                     "modifiers": {
@@ -60,6 +68,14 @@
                                 "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.googlecode\\.iterm2$"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
