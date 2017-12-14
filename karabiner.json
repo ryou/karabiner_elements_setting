@@ -356,6 +356,14 @@
                     "to": {
                         "key_code": "left_command"
                     }
+                },
+                {
+                    "from": {
+                        "pointing_button": "button4"
+                    },
+                    "to": {
+                        "key_code": "left_shift"
+                    }
                 }
             ],
             "virtual_hid_keyboard": {
