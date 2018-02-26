@@ -13,6 +13,22 @@
                 },
                 "rules": [
                     {
+                        "description": "mouse button5 => alt",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "pointing_button": "button5"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_alt"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Ctrl+M => Capslock",
                         "manipulators": [
                             {
