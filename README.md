@@ -6,6 +6,7 @@
 
 ## 設定したキーバインド
 
++ mouse button 5 + mouse button 3 => screen shot
 + mouse button 5 => left_alt
 + Ctrl+u => PageUp
 + Ctrl+v => PageDown

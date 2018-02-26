@@ -13,6 +13,31 @@
                 },
                 "rules": [
                     {
+                        "description": "mouse button 5 + mouse button 3 => screen shot",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "pointing_button": "button3",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "4",
+                                        "modifiers": [
+                                            "command",
+                                            "shift"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "mouse button5 => alt",
                         "manipulators": [
                             {
