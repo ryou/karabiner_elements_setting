@@ -9,7 +9,8 @@
             "complex_modifications": {
                 "parameters": {
                     "basic.to_delayed_action_delay_milliseconds": 500,
-                    "basic.to_if_alone_timeout_milliseconds": 1000
+                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_held_down_threshold_milliseconds": 500
                 },
                 "rules": [
                     {
@@ -17,12 +18,12 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "pointing_button": "button3",
                                     "modifiers": {
                                         "mandatory": [
                                             "option"
                                         ]
-                                    }
+                                    },
+                                    "pointing_button": "button3"
                                 },
                                 "to": [
                                     {
@@ -465,6 +466,22 @@
                     },
                     "to": {
                         "key_code": "left_shift"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "japanese_pc_nfer"
+                    },
+                    "to": {
+                        "key_code": "japanese_eisuu"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "japanese_pc_xfer"
+                    },
+                    "to": {
+                        "key_code": "japanese_kana"
                     }
                 }
             ],
