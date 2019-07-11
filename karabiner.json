@@ -16,6 +16,27 @@
                 },
                 "rules": [
                     {
+                        "description": "option + button1 => F10",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    },
+                                    "pointing_button": "button1"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "f10"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "mouse button 5 + mouse button 3 => screen shot",
                         "manipulators": [
                             {
